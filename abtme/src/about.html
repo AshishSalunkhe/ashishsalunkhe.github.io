@@ -3,11 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <title>About Me</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans|Gentium+Book+Basic'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style type="text/css">
 
+*{padding:0;margin:0;}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.label-container{
+	position:fixed;
+	bottom:48px;
+	right:105px;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#fff;
+	color:skyblue;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index:1000;
+	animation: bot-to-top 2s ease-out;
+}
+
+ul{
+	position:fixed;
+	right:40px;
+	padding-bottom:20px;
+	bottom:80px;
+	z-index:100;
+}
+
+ul li{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+ul li a{
+	background-color:#FFF;
+	color:skyblue;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	width:60px;
+	height:60px;
+	display:block;
+}
+
+ul:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+a#menu-share + ul{
+  visibility: hidden;
+}
+
+a#menu-share:hover + ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+a#menu-share i{
+	animation: rotate-in 0.5s;
+}
+
+a#menu-share:hover > i{
+	animation: rotate-out 0.5s;
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-in {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-out {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+</style>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans|Gentium+Book+Basic'><link rel="stylesheet" href="./style.css">
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+  
+        
 <!-- partial:index.partial.html -->
 <section class="introduction-section">
     
@@ -16,17 +163,18 @@
 </section>
 
 <section class="questions-section">
-    <h1>My Interests, Recent and Past Work Areas</h1>
-    <ul>
-<li>
-    Research Interests include: Working on Natural Language Processing Tasks, Graph Analytics, Information Retrieval Techniques.
-</li>
-<h4>I've previously worked on:</h4>
+    <h5>My Interests, Recent and Past Work Areas</h5> <br>
+    <p>Research Interests include: Working on Natural Language Processing Tasks, Graph Analytics, Information Retrieval Techniques.</p>
+    <br>
+<h5>I've previously worked on:</h5>
+<br>
     <li>Creating language models for Code-Mixed Languages.</li>
     <li>Development of graph based recommendation models.</li>
     <li>Extraction of data from unstructured PDFs.</li>
     <li>Text Classification Tasks using baseline Machine Learning and Deep Learning approaches.</li>
-<h4>Areas other than ML and DL:</h4>
+    <br>
+<h5>Areas other than ML and DL:</h5>
+<br>
 <li> Android</li>
 <li> Business Analytics Dashboards</li>
 <li> Frontend Web Devlopment</li>
@@ -35,7 +183,8 @@
 
 </section>
 <section class="questions-section">
-    <h1>Work Experience</h1>
+    <h5>Work Experience</h5>
+    <br>
     <ol>
 <li>Data Science Intern at Crysagi Systems (now acquired by CoreView Systems). <br>(Sept 2019 - Nov 2019)</li>
 <li>Data Science Intern at CoreView Systems. <br>(June 2019 - Sept 2019)</li>
@@ -52,6 +201,8 @@
 You can reach out to me on <a href="mailto:ashishsalunkhe@ieee.org" >ashishsalunkhe@ieee.org</a> or <a href="https://www.linkedin.com/in/ashish-salunkhe">LinkedIn</a>.
 
 </div>
+
+
         <div class="col-lg-12">
             <div class="container footertext">
                 <div class="center-block dividerContact"></div>
@@ -64,8 +215,49 @@ You can reach out to me on <a href="mailto:ashishsalunkhe@ieee.org" >ashishsalun
         </div>
   
 </footer>
+<!-- Actual Demo code starts here -->
 
+<a href="#" class="float" id="menu-share">
+    <i class="fa fa-bars my-float"></i>
+    </a>
+    <ul>
+        <li ><a href="https://ashishsalunkhe.github.io/" class="tooltipped" data-position="left" data-tooltip="Home" id="menu-home">
+			<i class="fa fa-home my-float" ></i>
+			
+            </a></li>
+                   
+        <li><a href="https://github.com/ashishsalunkhe" class="tooltipped" data-position="left" data-tooltip="Projects" id="menu-github">
+                <i class="fa fa-github my-float"></i>
+                </a></li>
+    <li><a href="https://scholar.google.com/citations?user=n0PWgvUAAAAJ&hl=en&oi=ao" class="tooltipped" data-position="left" data-tooltip="Publications" id="menu-leanpub">
+    <i class="fa fa-leanpub my-float"></i>
+    </a></li>
+    <li><a href="https://ashishsalunkhe.github.io/docs/ashishsalunkheResume.pdf" class="tooltipped" data-position="left" data-tooltip="Resume" id="menu-sticky-note-o">
+    <i class="fa fa-sticky-note-o my-float"></i>
+    </a></li>
+  
+</ul>
 <!-- partial -->
+<!-- partial -->
+ 
+ <script type="text/javascript">
+$(document).ready(function(){
+	$('.fixed-action-btn').floatingActionButton();
+  });
+  $(document).ready(function(){
+	$('.tooltipped').tooltip();
+  });
+  
+  $("#fab-btn").mouseover(function(){
+  setTimeout(function(){
+	  $('.tooltipped').tooltip('open');
+  
+  },600); 
+  });
+  $("#fab-btn").mouseout(function(){
+	  $('.tooltipped').tooltip('close');
+  })
+  </script>
   
 </body>
 </html>
