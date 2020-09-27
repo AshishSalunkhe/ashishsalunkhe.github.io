@@ -1,303 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <title>Ashish Salunkhe</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-control" content="public">
-    <meta name="pinterest" content="nopin" />
-    <meta name="description" content="Ashish Salunkhe - Portfolio">
-    <link rel="icon" href="favicon.png">
-    <title>
-   Ashish Salunkhe 
-    </title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <!-- <link rel="stylesheet" href="/home/ashish/GitHub/ashish.github.io/svg-social-media-icons/dist/style.css"> -->
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/icomoon.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="assets/js/scrollReveal.min.js"></script>
-    <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-    <style>
-    /* Ensure elements load hidden before ScrollReveal runs */
-
-    #headerwrap {
-        visibility: hidden;
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-    </style>
-</head>
-
-<body offset="0" data-target="#navbar-main">
-    <!-- Start Page -->
-    <div id="preloader">
-        <div id="status">&nbsp;</div>
-    </div>
-    <div id="navbar-main">
-        <!-- Fixed navbar -->
-        <div id="navCont" class="navbar navbar-inverse">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+        <link rel='stylesheet' href='https://fredsiika.github.io/fredcodes/dist/css/main.css'>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="index.js"></script>
+        
+    </head>
+    <body>
+        
+        <nav class="navbar is-fixed-top roboto">
+            <div class="navbar-brand">
+                <a href="index.html" class="navbar-item"><img class="image has-text-weight-bold" src="img/home.png" alt="Homepage"></a>
+                <!-- <a href="index.html" class="navbar-item is-active">Home</a> -->    
+                <a role="button" class="navbar-burger"  data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu navbar-end" id="navMenu">
+                <a href="about_me.html" class="navbar-item">About Me</a>
+                <a href="experience.html" class="navbar-item">Experience</a>
+                <a href="publication.html" class="navbar-item">Publications</a>
+                <a href="projects.html" class="navbar-item">Projects</a>
+                <a href="blog_posts.html" class="navbar-item">Blog Posts</a>
+            </div>
+        </nav>
+        
+        <section class="section roboto first">
             <div class="container">
-              <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span><i class="fa fa-bars" aria-hidden="true"></i></span>
-                    </button>
-                    <a class="navbar-brand" href="#home"><span>Ashish Salunkhe</span></a>
-                </div> 
-                <div  id="boldsharp" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li> <a href="abtme/src/about.html"  style="font-weight: 500;">about</a></li>
-                        <li> <a href="https://github.com/ashishsalunkhe"  style="font-weight: 500;">projects</a></li>
-                        <li> <a href="#"  style="font-weight: 500;">articles</a></li>
-                        <li><a href="dist\ach.html">achievements</a></li>
-                        <li> <a href="https://thebellestristic.wordpress.com/" style="font-weight: 500;">blogs</a></li>
-                        <li> <a href="https://scholar.google.com/citations?user=n0PWgvUAAAAJ&hl=en&oi=ao"  style="font-weight: 500;">publications</a></li>
-                        <li> <a href="docs/ashishsalunkheResume.pdf" style="font-weight: 500;">CV</a></li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-            </div>
-        </div>
-    </div>
-    <!-- ==== HEADERWRAP ====  -->
-    <!-- //////////////////////////////////////////////// About SECTION ////////////////////////////////////////////////  -->
-    <div class="container-fluid">
-            <div class="headerwrap flex" name="home" id="home">
-                <!-- data-sr='wait 0.5s ease-in over 1s' -->
-                <!-- <div class="juan flex-item-image" data-sr='wait 1s, enter left over 2.5s'><img src="assets/img/JUAN2.gif" class="hero-img"></div> -->
-                
-                <div class="headshot-ct ">
-                    <img class="headshot" src="assets/img/headshot.jpg">
-                </div>
-                <div class="flex-item-txtblock" data-sr='wait 1s enter right over 2.5s'>
-                    <!-- <div><img src="assets/img/brandpurple2.png" class="center-block hero-responsive brand-div" alt="whoisjuan"></div> -->
-                    <p class="headerName" style=" height: 10px; display: inline-block;"><b>Ashish Salunkhe</b></p>
-                    <p class="headerlead center-block"><span>Undergrad Student</span><span>&nbsp; • &nbsp;</span><span>Data Science Enthusiast</span></p>
-                    
-                    <div class="center-block dividerLine"  style=" height: 8px; display: inline-block;"><br>Data Science Intern with special interests in NLP and Knowledge Graphs. Also, I'm keen in designing UIs. I'm fond of reading and writing, and origami</div>
-                    <p class="headerlead center-block"></p>
-                </div>
-            </div>
-<!--             <div class="row scroller">
-                <div class="row centered circle animated infinite pulse" data-sr='wait 1s, ease-in over 2.5s'>
-                    <a href="#portfolio" class="smoothScroll fa fa-chevron-circle-down"></a>
-                </div>
-            </div> -->
-        </div>
-        <br>
-        <div id="particles-js">
-        </div>
-        
-        <div class="news" style="width:800px; margin:0 auto;">
-        <h2 class="centered sechead firstsec" id="portfolio">NEWS</h2>
-        <table align="center">
-    
-    
-            <!-- </tr>
-              <tr>
-              <td class="date">Jun 1, 2020</td>
-              <td class="announcement">
-                
-                Completed Under-Grad studies with major in <b>Computer Science</b> 🎉
-        
-                
-              </td>
-            </tr> -->
-             <tr>
-              <td  class="date">Mar 29, 2020</td>
-              <td class="announcement">
-               Certified <a href="https://graphacademy.neo4j.com/certificates/4099af8513833ee7e92b0b1eb7e17d11a87db4c547ea06fdb72c10b06aedf00d.pdf" target="_blank"> <b>Neo4j Professional</b></a>🎉</td>
-            </tr>
-            <tr>
-              <td  class="date">Dec 1, 2019</td>
-              <td class="announcement">
-               Started as off-site intern at <a href="https://infralytiks.com/" target="_blank"> <b>Infralytiks LLC</b></a>, IA, USA.
-              </td>
-            </tr>
-            <tr>
-              <td  class="date">Sept 3, 2019</td>
-              <td  class="announcement">
-
-                Joined  <a href="http://crysagi.com/" target="_blank"><b>Crysagi Systems</b></a> as a Data Science Intern.
-              </td>
-            </tr>
-            <tr>
-                <td  class="date">Jun 12, 2019</td>
-                <td  class="announcement">
-                  Joined  <a href="https://coreviewsystems.com/" target="_blank"><b>CoreView Systems</b></a> as a Data Science Intern    
-                </td>
-              </tr>
-              <tr>
-                <td  class="date">Jun 15, 2017</td>
-                <td  class="announcement">
-                    Started as a Machine Learning Intern at <a href="https://mitu.co.in/" target="_blank"><b>MITU Skillologies</b></a>            
-                </td>
-              </tr>
-            
-          </table>
-        </div>     
-
-    <!-- /container -->
-    <!-- //////////////////////////////////////////////// ARTICLES SECTION ////////////////////////////////////////////////  -->
-    <!-- <h2 class="centered sechead firstsec" id="articles">
-    Publications
-    </h2>
-    <br>
-    <div class="page-content" align='justify'>
-    <ol >
-        <li >
-            Evolution of Techniques for Question Answering over Knowledge Base: A Survey
-            <br>
-            Salunkhe, A., 2020
-            <br>
-            <span class="links">
-                [<a class="abstract">Abs</a>]
-               [<a href="/assets/pdf/Vizit_Report.pdf" target="_blank">PDF</a>]
-              </span>
-        </li>
-        <li >
-            Aspect Based Sentiment Analysis on Financial Data using Transferred Learning Approach using Pre-Trained BERT and Regressor Model
-            <br>
-            Salunkhe, A., Mhaske , S., 2019
-            <br>
-            <span class="links">
-                [<a class="abstract">Abs</a>]
-               [<a href="/assets/pdf/Vizit_Report.pdf" target="_blank">PDF</a>]
-              </span>
-        </li>
-        <li >
-            Role of Machine Intelligence for Sustainable Agricultural Development
-            <br>
-            Salunkhe, A., Salunke , M., 2018
-            <br>
-            <span class="links">
-                [<a class="abstract">Abs</a>]
-               [<a href="/assets/pdf/Vizit_Report.pdf" target="_blank">PDF</a>]
-              </span>
-        </li>
-
-    </ol>
-    
-  </div> -->
-
-    <!-- container -->
-       
-     <br>
-    <!-- //////////////////////////////////////////////// CONTACT SECTION ////////////////////////////////////////////////  -->
- 
-    <div class="social">
-        <span class="contacticon center">
-          <a href="mailto:ashishsalunkhe@ieee.org"><img src='assets/black/email.png' width="50" height="50"></i></a>
-          
-          <!-- <a href="http://www.facebook.com"><img src='flat_web_icon_set/black/LinkedIN1.png' /></a> -->
-          <a href="https://github.com/ashishsalunkhe" target="_blank" title="GitHub"><img src='assets/black/github-logo.png' width="50" height="50"></i></a>
-          <a href="https://www.linkedin.com/in/ashish-salunkhe" target="_blank" title="LinkedIn"><img src='assets/black/linkedin.png' width="50" height="50"></i></a>
-          <a href="https://twitter.com/avsalunkhe98" target="_blank" title="Twitter"><img src='assets/black/twitter.png' width="50" height="50"></i></a>
-         
-        </span>
-
-       </div>
-       <br>
-       
-  <div class="col three caption">
-    You can reach out to me on Twitter or LinkedIn.
-
-  </div>
-  <br>
-            <div class="col-lg-12">
-                <div class="container footertext">
-                    <div class="center-block dividerContact"></div>
-                   
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-4 footer-last">
-                        <p> &copy; Copyright 2019 Ashish Salunkhe</p>
+                <div class="columns fade-in-left">
+                    <div class="column" style="margin-top: 3rem;">
+                        <h2 class="subtitle">Hey I'm</h2>
+                        <h1 class="title">Ashish Salunkhe</h1>
+                        <p class="">
+                            Data Science Enthusiast with special interests in NLP and Knowledge Graphs. 
+                            Also, keen in designing UIs. Fond of reading, writing, origami and playing synthesizer.
+                        </p>
+                        <br>
+                        <br>
+                        <a href="#" class="cv-button fade-in-left">Download CV</a>
+                    </div>
+                    <div class="column">
+                        <!-- <img class="image profile-pic" src="img/profile.png"> -->
+                         <div class="newsletter-section fade-in-left">
+                        <!-- <img src="\dist\ashish.jpg" class="newsletter-avatar" alt="Fred"> -->
+                        <img class="image profile-pic" src="img/profile.png">
+                        <div>
+                            <h3>Full Stack Developer</h3>
+                            <p>Working on Chatbots, Computer Vision and NLP Projects </p> 
+                            <!-- <a href="www.farmerp.com" style="color: #00d1b2;">@FarmERP</a> -->
+                            <!-- <a class="button" href="https://fredsiika.substack.com">Resume</a> -->
+                            <div class="social-icons is-mobile center button-white">
+                                <a><i class="fas fa-envelope " style="color: #ffffff"></i></a>
+                                <a><i class="fas fa-graduation-cap " style="color: #ffffff"></i></a>
+                                <a><i class="fab fa-twitter " style="color: #ffffff"></i></a>
+                                <a><i class="fab fa-github " style="color: #ffffff"></i></a>
+                                <a><i class="fab fa-linkedin " style="color: #ffffff"></i></a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- <div class="social-icons is-mobile center">
+                            <a><i class="fas fa-envelope " style="color: #645dd7"></i></a>
+                            <a><i class="fas fa-graduation-cap " style="color: #4285f4"></i></a>
+                            <a><i class="fab fa-twitter " style="color: #1da1f2"></i></a>
+                            <a><i class="fab fa-github " style="color: #24292e"></i></a>
+                            <a><i class="fab fa-linkedin " style="color: #0073b0"></i></a>
+                        </div> -->
                     </div>
                 </div>
             </div>
-        <!--================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script type="text/javascript" src="assets/js/app.js"></script>
-        <script>
-        window.sr = new scrollReveal();
-        </script>
-        <script>
-        var winBreak = 5;
-        $(window).on("scroll", function() {
-            if ($(this).scrollTop() > winBreak) {
-                $("#navCont").addClass("whitebg in");
-            } else {
-                $("#navCont").removeClass("whitebg in");
-            }
-        });
-        </script>
-        <!-- Preloader -->
-        <script type="text/javascript">
-        $(window).on('load', function() { // makes sure the whole site is loaded
-            $('#status').fadeOut(); // will first fade out the loading animation
-            $('#preloader').delay(50).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            $('body').delay(50).css({
-                'overflow': 'visible'
-            });
-        })
-        $('[data-toggle="popover"]').popover();
-        //]]>
-        </script>
-        <script type="text/javascript">
-        var clipboard = new Clipboard('.btn-email-copy');
-        clipboard.on('success', function(e) {});
-        clipboard.on('error', function(e) {
-            console.log("Oops. Something went wrong!")
-        });
-        $('.btn-email-copy').click(function() {
-            $(this).html("Email Address Copied!")
-        })
-        </script>
-        <script type="text/javascript">
-        $(".hidden-form").hide();
-        $('.btn-reveal').click(function() {
-            $(".after-hide").hide();
-            $(".form-body").slideDown();;
-            $(".form-divider").show();
-            $(".form-alt-btn").show();
-            $("html, body").animate({
-                scrollTop: $(document).height()
-            }, "slow");
-            return false;
-        })
-        </script>
-        <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        </section>
 
-        ga('create', 'UA-90764052-1', 'auto');
-        ga('send', 'pageview');
-        </script>
-</body>
-
+        <section class="hero is-primary roboto scale-up-ver-bottom">
+            <div class="hero-head has-text-centered" style="padding: 2%;">
+                <h1 class="title">Updates</h1>
+            </div>
+            <div class="hero-body">
+                <div class="box">
+                    <div class="columns fade-in-left" style="padding: 2%; max-height: 496px; overflow-y: scroll; -ms-overflow-style: none;  /* Internet Explorer 10+ */
+                    scrollbar-width: none;  /* Firefox */">
+                        <div class="column is-paddingless" >
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Mar 29, 2020</button>
+                                <p>Certifed Neo4j Professional</p>
+                            </div>
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Dec 01, 2019</button>
+                                <p>Started as off-site intern at Infralytiks LLC, IA, USA.</p>
+                            </div>
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Sep 03, 2019</button>
+                                <p>Joined Crysagi Systems as Data Science Intern</p>
+                            </div>
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Jun 12, 2019</button>
+                                <p>Joined CoreView Systems as Data Science Intern</p>
+                            </div>
+                        </div>
+                        <div class="column is-paddingless">
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Aug 17, 2018</button>
+                                <p>Elected as the Chairperson of PCCOE&R ACM Student Chapter</p>
+                            </div>
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Jun 15, 2018</button>
+                                <p>Started as Machine Learning Intern at MITU Skillologies</p>
+                            </div>
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Aug 17, 2017</button>
+                                <p>Founded PCCOE&R ACM Student Chapter and Elected as Chairperson</p>
+                            </div>
+                            <div style="border-left: 1px solid #000000; padding: 10px;">
+                                <button class="button is-small is-link is-light">Aug 1, 2016</button>
+                                <p>Pursuing B.E. Computer Engineering at PCCOE&R</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </body>
 </html>
