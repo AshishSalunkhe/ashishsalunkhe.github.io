@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.remark-code-title {
+  @apply px-5 py-3 font-mono text-sm font-bold text-gray-200 bg-gray-700 rounded-t;
+}
+
+.remark-code-title + pre {
+  @apply mt-0 rounded-t-none;
+}
+
+.task-list-item:before {
+  @apply hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  /* font-family: 'Lexend Deca', sans-serif; */
+}
+/* 
+.neomorphic{
+  
+background: #F0F0F3;
+box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
+border-radius: 5px;
+
+} */
+
+.neo-green{
+  color: #00d09c;
+}
