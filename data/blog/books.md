@@ -3,7 +3,7 @@ title: Books I've Read in 2021
 date: '2021-05-06'
 tags: ['Books', 'Resolution', 'reading ']
 draft: false
-summary: Articile on what exactly a mutual fund is and how it works.
+summary: Thread about the books I completed reading in 2021.
 ---
 
 - [Tweet](https://twitter.com/i/status/1390368138319908867) by [@avsalunkhe98](https://twitter.com/avsalunkhe98) on [[May 6th, 2021]]:
