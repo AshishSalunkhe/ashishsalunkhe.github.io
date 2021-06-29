@@ -105,7 +105,7 @@ export default function Achievements() {
               >
        
           <button className="py-2 px-4 w-96 bg-transparent hover:bg-green-400 text-green-400 font-semibold hover:text-white  border border-green-400 hover:border-transparent rounded">
-                  <span> Google Scholar Profile <SiGooglescholar/>  </span> 
+          <SiGooglescholar/>   <span>Google Scholar Profile</span> 
           </button>
 
           {/* <SocialIcon  kind="googleScholar" href={siteMetadata.googleScholar} /> */}
