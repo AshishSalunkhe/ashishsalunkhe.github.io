@@ -50,7 +50,7 @@ List of challenges that make it difficult to deploy ML models to production:
 * Security
 
 Shout out to [Andrej Karpathy](https://twitter.com/karpathy) for the wonderful blog emphasizing Software 2.0 and the ongoing transition into the 2.0 stack.
-{% medium https://medium.com/@karpathy/software-2-0-a64152b37c35 %}
+[Medium Blog](https://medium.com/@karpathy/software-2-0-a64152b37c35)
 
 #### How does an MLOps Life Cycle look like?
 
