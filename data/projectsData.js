@@ -16,7 +16,7 @@ const projectsData = [
   {
     title: 'ABU Robocon 2018',
     description: `MATLAB Implemented Modules during ABU Robocon 2018`,
-    imgSrc: '/static/images/robocon2.png',
+    imgSrc: '/static/images/robocon.png',
     href: '',
     githubURL: 'https://github.com/ashishsalunkhe/ABURobocon2018'
   },
