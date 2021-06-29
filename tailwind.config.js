@@ -150,6 +150,9 @@ module.exports = {
   },
   variants: {
     typography: ['dark'],
+    extend:{
+      listStylePosition: ['hover', 'focus'],
+    } 
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }

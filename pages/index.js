@@ -5,6 +5,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import SocialIcon from '@/components/social-icons'
+import { HiOutlineDownload } from "react-icons/hi"
 
 const MAX_DISPLAY = 3
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -52,7 +53,6 @@ export default function Home({ posts }) {
             </p>
           <h1 className="text-9xl font-extrabold leading-9 text-gray-100 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-9xl md:leading-9">
             <span className="neo-green">Ashish Salunkhe</span>
-            
           </h1>
           <p className="text-lg leading-9 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}  @ Persistent Systems
@@ -64,6 +64,7 @@ export default function Home({ posts }) {
                 <button className="bg-transparent hover:bg-green-400 text-green-400 font-semibold hover:text-white py-2 px-4 border border-green-400 hover:border-transparent rounded">
                   <span>Resume</span>
                 </button>
+                
             </Link>
             </div>
           </div>

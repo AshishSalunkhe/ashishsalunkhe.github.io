@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }) {
           @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
           </style> 
         </Head>
         <DefaultSeo {...SEO} />

@@ -1,7 +1,7 @@
 ---
 title: Books I've Read in 2021
 date: '2021-05-06'
-tags: ['Books', 'Resolution', 'reading ']
+tags: ['Books', 'Resolution', 'reading']
 draft: false
 summary: Thread about the books I completed reading in 2021.
 ---

@@ -50,7 +50,7 @@ export default function About() {
             Open for freelance projects in areas related but not limited to Data Science. <br/>
             Here are a few technologies I've been working with recently:  
             </p>
-
+              
             <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
             <div className="space-y-2 md:space-y-4">
             <ul className="md:list">
@@ -69,7 +69,8 @@ export default function About() {
               </ul>
             </div>
             </div>
-            <div className="pt-1">
+            
+            {/* <div className="pt-1">
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Education
           </h1>
@@ -91,22 +92,13 @@ export default function About() {
                 <td>2020</td>
                 <td>Pune, India</td>
               </tr>
-              {/* <tr class="bg-emerald-200">
-                <td>Pratibha Junior College</td>
-                <td>12th Science</td>
-                <td>2016</td>
-                <td>Pune, India</td>
-              </tr>
-              <tr>
-                <td>C.M.S. English Medium School</td>
-                <td>10th</td>
-                <td>2014</td>
-                <td>Pune, India</td>
-              </tr> */}
             </tbody>
           </table>
-            </div>
-
+            </div> */}
+              <div>
+                <img alt="My Github Stats" src="https://github-readme-stats.vercel.app/api?username=ashishsalunkhe&show_icons=true&hide_border=true"/>
+                <a href="https://github.com/ashishsalunkhe"><img src="https://img.shields.io/github/followers/ashishsalunkhe?label=GitHub Followers"/></a>
+              </div>
           </div>
         </div>
       </div>
