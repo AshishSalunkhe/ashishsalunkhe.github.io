@@ -104,7 +104,7 @@ export default function Achievements() {
               rel="noreferrer"
               >
        
-          <button className="py-2 px-4 w-96 bg-transparent hover:bg-green-400 text-green-400 font-semibold hover:text-white  border border-green-400 hover:border-transparent rounded">
+          <button className="py-2 px-4 bg-transparent hover:bg-green-400 text-green-400 font-semibold hover:text-white  border border-green-400 hover:border-transparent rounded">
           <SiGooglescholar/>   <span>Google Scholar Profile</span> 
           </button>
 
