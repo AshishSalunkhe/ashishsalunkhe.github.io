@@ -97,21 +97,12 @@ export default function Achievements() {
             Publications 
           </h3>
         </div>
-        <div className="flex pt-6 pb-2">
-        <a
-              href={'https://scholar.google.com/citations?user=n0PWgvUAAAAJ&hl=en'}
-              target="_blank"
-              rel="noreferrer"
-              >
-       
-          <button className="py-2 px-4 bg-transparent hover:bg-green-400 text-green-400 font-semibold hover:text-white  border border-green-400 hover:border-transparent rounded">
-          <SiGooglescholar/>   <span>Google Scholar Profile</span> 
-          </button>
-
-          {/* <SocialIcon  kind="googleScholar" href={siteMetadata.googleScholar} /> */}
-        </a> 
-        </div>
+        
+         
+        
         <div className="pt-4 pb-4 flex flex-col items-start justify-start md:flex-row md:mt-6">
+        {/* <SiGooglescholar/>  */}
+        
         <ul className="list-disc list-inside md:list">
               <li>Visual Assistant for Visually Impaired using Transferred Learning Approach, Journal of SeyBold Report(Scopus-Indexed) -  2020</li>
               <li>Evolution of Techniques for Question Answering over Knowledge Base: A Survey, IJCA - 2019</li>
@@ -119,6 +110,23 @@ export default function Achievements() {
               <li>Machine Intelligence for Sustainable Agricultural Developmen, CSI Communications - 2018</li>
         </ul>
         </div>
+        <div className="pt-6 ">
+        <a
+              href={'https://scholar.google.com/citations?user=n0PWgvUAAAAJ&hl=en'}
+              target="_blank"
+              rel="noreferrer"
+              >
+       
+          <button className="py-2 px-4 bg-transparent hover:bg-green-400 text-green-400 font-semibold hover:text-white  border border-green-400 hover:border-transparent rounded">
+            <span>Google Scholar Profile </span> <span role="img" aria-label="scholar logo">
+            🎓
+            </span>
+          </button>
+
+          {/* <SocialIcon  kind="googleScholar" href={siteMetadata.googleScholar} /> */}
+        </a>
+        </div>
+        
       </div>
       
     </>

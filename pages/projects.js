@@ -24,7 +24,8 @@ export default function Projects() {
           </p>
         </div>
         <div className="container py-12">
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 ">
+            
             {projectsData.map((d) => (
               
               <Card
@@ -36,6 +37,8 @@ export default function Projects() {
                 githubURL={d.githubURL}
               />
             ))}
+            
+            
              
           </div>
         </div>

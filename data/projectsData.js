@@ -7,18 +7,11 @@ const projectsData = [
     githubURL: ''
   },
   {
-    title: 'AttendeR',
-    description: `Android Application developed for QR-based attendance`,
-    imgSrc: '/static/images/attendermockup.png',
-    href: '',
-    githubURL: 'https://github.com/ashishsalunkhe/AttendeR'
-  },
-  {
-    title: 'ABU Robocon 2018',
-    description: `MATLAB Implemented Modules during ABU Robocon 2018`,
-    imgSrc: '/static/images/robocon.png',
-    href: '',
-    githubURL: 'https://github.com/ashishsalunkhe/ABURobocon2018'
+    title: 'InSight',
+    description: `Android Application for low vision community using Computer Vision and Text-to-Speech`,
+    imgSrc: '/static/images/insight.png',
+    href: 'https://drive.google.com/file/d/1uYTqnxGTIqT9v8IV6qi3uUhlpPj_oiuW/view?usp=sharing',
+    githubURL: ''
   },
   {
     title: 'DeepSpamReview',
@@ -42,6 +35,21 @@ const projectsData = [
     href: '',
     githubURL: 'https://github.com/ashishsalunkhe/DickensSpeaks'
   },
+  {
+    title: 'AttendeR',
+    description: `Android Application developed for QR-based attendance`,
+    imgSrc: '/static/images/attendermockup.png',
+    href: '',
+    githubURL: 'https://github.com/ashishsalunkhe/AttendeR'
+  },
+  {
+    title: 'ABU Robocon 2018',
+    description: `MATLAB Implemented Modules during ABU Robocon 2018`,
+    imgSrc: '/static/images/robopccoer.png',
+    href: '',
+    githubURL: 'https://github.com/ashishsalunkhe/ABURobocon2018'
+  },
+  
 ]
 
 export default projectsData
