@@ -40,7 +40,7 @@ export default function Achievements() {
             </div>
             <div className="flex flex-col items-center pt-8 space-x-2">
             {/* <img src={siteMetadata.image} alt="avatar" className="h-48 rounded-full" /> */}
-            <a href="https://youtu.be/Oe_DP4xateI">
+            <a href="http://aicvs.in/2021/03/26/AI-for-Everyone.html">
                 <img src='./static/images/cumminstalk.png' alt="Talk @Cummins" className="rounded-lg" />
             </a>
             
@@ -68,12 +68,12 @@ export default function Achievements() {
             </div>
           
           <div className="pt-8 pb-8 prose items-center justify-center dark:prose-dark max-w-none xl:col-span-2">
-            <div className="font-extrabold text-gray-500 dark:text-gray-400">2 Talks</div>
+            <div className="font-extrabold text-gray-500 dark:text-gray-400">Talks at PCCOER, Pune</div>
             <div className="font-bold text-gray-500 dark:text-gray-400">1. Talk on 'Joining ACM and being a part of technical community'</div>
             <div className="font-bold text-gray-500 dark:text-gray-400">2. Talk on 'Introduction to Machine Learning and AI'</div>
 
             <p>
-                Delivered 2 talks. First talk on joining ACM and the student community and encouraging students to be a part of the it and Second talk on giving an overview of Machine Learning and how students can get started in it at PCCOER, Pune.
+                Delivered 2 talks at PCCOER, Pune. First talk on joining ACM and the student community and encouraging students to be a part of it and Second talk on giving an overview of Machine Learning and how students can get started in it.
             </p>
           </div>
           <div className="flex flex-col items-center pt-8 space-x-2">
