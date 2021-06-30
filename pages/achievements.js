@@ -30,45 +30,27 @@ export default function Achievements() {
           </h3>
         </div>
         <div className=" items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
+
             {/* Webinar on AI for everyone at Cummins, Pune */}
             <div className="pt-8 pb-4 prose dark:prose-dark max-w-none xl:col-span-2">
             <div className="font-bold text-gray-500 dark:text-gray-400">Webinar on 'AI for Everyone'</div>
             <p>
-                Delivered a webinar on basics of ML and AI, a roadmap for beginners and brief info about available career opportunities and how to prepare for them at (AICVS - AI Computer Vision Society) MKSS Cummins College, Pune.
+                Delivered a webinar on basics of ML and AI, a roadmap for beginners and brief info about available career opportunities and how to prepare for them at <a href="http://aicvs.in/2021/03/26/AI-for-Everyone.html">(AICVS - AI Computer Vision Society)</a> MKSS Cummins College, Pune.
             </p>
             <a href="https://youtu.be/Oe_DP4xateI"><p>Click here for Webinar</p></a>
             </div>
             <div className="flex flex-col items-center pt-8 space-x-2">
-            {/* <img src={siteMetadata.image} alt="avatar" className="h-48 rounded-full" /> */}
             <a href="http://aicvs.in/2021/03/26/AI-for-Everyone.html">
                 <img src='./static/images/cumminstalk.png' alt="Talk @Cummins" className="rounded-lg" />
             </a>
-            
-            {/* <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
-              
-            </h3> */}
-           
             </div>
             
-           
-            {/* Workshop on Git and Github at PCCOER, Pune */}
-            <div className="flex flex-col items-center pt-8 space-x-2">
-                {/* <img src={siteMetadata.image} alt="avatar" className="h-48 rounded-full" /> */}
-                <img src='./static/images/github.jpg' alt="Github Workshop" className="h-48 rounded-lg" />
-                {/* <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
-                
-                </h3> */}
-                
-            </div>
-            <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
-            <div className="font-bold text-gray-500 dark:text-gray-400">Workshop on 'Git and GitHub: A Walkthrough'</div>
-                <p>
-                    Delivered a full-day workshop on concepts of Git & GitHub and practical implementation of all the concepts of Git & GitHub in September 2019 at PCCOER, Pune.
-                </p>
-            </div>
-          
+           {/* Talks at PCCOER ACM EVENT */}
+           <div className="flex flex-col items-center pt-8 space-x-2">
+            <img src='./static/images/acmevent.jpg' alt="ACMEvent"  className="rounded-lg "/>          
+          </div>
           <div className="pt-8 pb-8 prose items-center justify-center dark:prose-dark max-w-none xl:col-span-2">
-            <div className="font-extrabold text-gray-500 dark:text-gray-400">Talks at PCCOER, Pune</div>
+            <div className="font-extrabold text-gray-500 dark:text-gray-400">Talks at PCCOER, Pune - Jan 2020</div>
             <div className="font-bold text-gray-500 dark:text-gray-400">1. Talk on 'Joining ACM and being a part of technical community'</div>
             <div className="font-bold text-gray-500 dark:text-gray-400">2. Talk on 'Introduction to Machine Learning and AI'</div>
 
@@ -76,14 +58,20 @@ export default function Achievements() {
                 Delivered 2 talks at PCCOER, Pune. First talk on joining ACM and the student community and encouraging students to be a part of it and Second talk on giving an overview of Machine Learning and how students can get started in it.
             </p>
           </div>
-          <div className="flex flex-col items-center pt-8 space-x-2">
-            {/* <img src={siteMetadata.image} alt="avatar" className="h-48 rounded-full" /> */}
-            <img src='./static/images/acmevent.jpg' alt="ACMEvent"  className="rounded-lg "/>
-            {/* <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
+          
+
+            {/* Workshop on Git and Github at PCCOER, Pune */}
             
-            </h3> */}
-            
-          </div>
+            <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
+            <div className="font-bold text-gray-500 dark:text-gray-400">Workshop on 'Git and GitHub: A Walkthrough' - Sep 2019</div>
+                <p>
+                    Delivered a full-day workshop on concepts of Git & GitHub and practical implementation of all the concepts of Git & GitHub at PCCOER, Pune.
+                </p>
+            </div>
+            <div className="flex flex-col items-center pt-8 space-x-2">
+                <img src='./static/images/github.jpg' alt="Github Workshop" className="h-48 rounded-lg" />      
+            </div>
+          
           
         </div>
       </div>
