@@ -7,7 +7,7 @@ import siteMetadata from '@/data/siteMetadata'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
-  `http://www.twitter.com/share?q=${encodeURIComponent(`${siteMetadata.siteUrl}/blog/${slug}`)}`
+  `http://www.twitter.com/share?url=${encodeURIComponent(`${siteMetadata.siteUrl}/blog/${slug}`)}`
 
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
@@ -67,10 +67,10 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
-                  {'Discuss on Twitter'}
+                  {'Share on Twitter 🔗'}
                 </Link>
                 {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                <Link href={editUrl(fileName)}>{'View on GitHub ↪️'}</Link>
               </div>
             </div>
             <footer>
