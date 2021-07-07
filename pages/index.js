@@ -5,7 +5,6 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import SocialIcon from '@/components/social-icons'
-import { HiOutlineDownload } from "react-icons/hi"
 
 const MAX_DISPLAY = 3
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -62,7 +61,7 @@ export default function Home({ posts }) {
               href={'https://www.dropbox.com/s/7fp0w6o1vxep22o/AshishSalunkheResume.pdf?dl=0'}
               >
                 <button className="bg-transparent hover:bg-green-400 text-green-400 font-semibold hover:text-white py-2 px-4 border border-green-400 hover:border-transparent rounded">
-                  <span> ⬇ Resume</span>
+                  <span>Resume</span>
                 </button>
                 
             </Link>

@@ -1,5 +1,5 @@
 ---
-title: Write your code such that Humans understand it. Computers understand binary Humans can't!
+title: Code such that Humans understand it. Computers understand binary Humans can't!
 date: '2021-07-07'
 tags: ['Coding', 'Software Engineering', 'Principles', 'Developers']
 draft: false
@@ -16,7 +16,9 @@ summary: A brief about coding practices every developer must follow and why?
 
 
 1. ***Exception Handling*** : Code in a defensive manner. Always consider the worst case scenario. Think about input failures, event handling exceptions. This would help keep a track of possible bugs and catch the exceptions.
+
 ![Computer Joke 1 Here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8fz8h2ijapwetttndq9f.jpg)
+
 2. ***Enhance code readability*** : Writing highly optimized code and creating complex libraries is easy but consider junior developer trying to understand 300 lines of code. Which more of a challenge than learning. Code which is clean and modular reflects maturity, competency and professionalism of the developer. A code logically structured into modules and functions is always more readable, effecient and reusable. 
 3. ***Minimize the memory footprint*** : Simple yet significant coding habits can change the performance of your final product. Memory management involves ways programmer / developer dynamically allocates memory to code when requested and frees it for reuse when not needed. Here are a few good blogs I came accross: 
     - [Secure Coding Best Practices for Memory Allocation in C and C++](https://www.codeproject.com/Articles/13853/Secure-Coding-Best-Practices-for-Memory-Allocation)
