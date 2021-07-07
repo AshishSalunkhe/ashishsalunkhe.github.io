@@ -16,7 +16,7 @@ summary: A brief about coding practices every developer must follow and why?
 
 
 1. ***Exception Handling*** : Code in a defensive manner. Always consider the worst case scenario. Think about input failures, event handling exceptions. This would help keep a track of possible bugs and catch the exceptions.
-![Computer Joke Here1](https://github.com/ashishsalunkhe/ashishsalunkhe.github.io/blob/main/public/static/images/goodenof.jpg "Ain't good enough?")
+![Computer Joke 1 Here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8fz8h2ijapwetttndq9f.jpg)
 2. ***Enhance code readability*** : Writing highly optimized code and creating complex libraries is easy but consider junior developer trying to understand 300 lines of code. Which more of a challenge than learning. Code which is clean and modular reflects maturity, competency and professionalism of the developer. A code logically structured into modules and functions is always more readable, effecient and reusable. 
 3. ***Minimize the memory footprint*** : Simple yet significant coding habits can change the performance of your final product. Memory management involves ways programmer / developer dynamically allocates memory to code when requested and frees it for reuse when not needed. Here are a few good blogs I came accross: 
     - [Secure Coding Best Practices for Memory Allocation in C and C++](https://www.codeproject.com/Articles/13853/Secure-Coding-Best-Practices-for-Memory-Allocation)
@@ -25,7 +25,7 @@ summary: A brief about coding practices every developer must follow and why?
 4. ***Refactor your code*** : Restructuring your existing code without changing it's functionality. Aggregate groups of functions doing similar tasks into a single function, use of abstraction, deduplication of code and polymorphism.
     - [Refactoring Guru](https://refactoring.guru/refactoring)
 
-![Computer Joke Here2](https://github.com/ashishsalunkhe/ashishsalunkhe.github.io/blob/main/public/static/images/cjoke.jpg "Simple Silly Bro")
+![Computer Joke 2 Here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9u85gc41smlu2yl67eob.jpg)
 
 5. ***Version Control*** : Tracking all changes and synchronization of codes, bug-resolve, managing changes to source codeover time. Basic, niche practice every developer should master. Git, GitHub, Gitlab, Mercurial are tools used for version control.
     - [What is version control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
